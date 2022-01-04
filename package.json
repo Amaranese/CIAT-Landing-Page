@@ -1,0 +1,54 @@
+{
+  "name": "ciat_app",
+  "version": "0.1.0",
+  "private": "true",
+  "dependencies": {
+    "bootstrap": "^5.1.3",
+    "emailjs-com": "^3.2.0",
+    "mdbreact": "^5.2.0",
+    "react": "^16.14.0",
+    "react-art": "^17.0.2",
+    "react-bootstrap": "^2.1.0",
+    "react-dom": "^17.0.2",
+    "react-google-recaptcha": "^2.1.0",
+    "react-icons": "^4.3.1",
+    "react-native": "^0.66.4",
+    "react-native-scalable-image": "^1.1.0",
+    "react-native-web": "^0.17.5",
+    "react-navigation": "^4.4.4",
+    "react-recaptcha": "^2.3.10",
+    "react-responsive-carousel": "^3.2.22",
+    "react-router-dom": "^6.2.1",
+    "react-router-modal": "^1.5.2",
+    "react-scroll": "^1.8.4",
+    "redux": "^4.1.2"
+  },
+  "devDependencies": {
+    "babel-jest": "^27.4.5",
+    "babel-preset-react-native": "^4.0.1",
+    "jest": "^27.4.5",
+    "react-scripts": "^5.0.0",
+    "react-test-renderer": "^17.0.2"
+  },
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest",
+    "start-ios": "react-native run-ios",
+    "start-web": "react-scripts start",
+    "build": "react-scripts build",
+    "test-web": "react-scripts test --env=jsdom",
+    "eject-web": "react-scripts eject"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
